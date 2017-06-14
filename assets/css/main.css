@@ -1,0 +1,44 @@
+/*---colors
+amarillo: FED136;
+*/
+
+.first-section {
+	background: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	height: 100vh; /*esto utilizara el 100% del alto de la pantalla*/
+	background-size: cover;
+}
+
+.navbar-inverse {
+	background: transparent;
+	border: none;
+}
+
+.toggle-label {
+	background-color: #FED136;
+}
+
+.sr-only {
+	color: #fff;
+}
+
+.navbar-collapse {
+	font-weight: bold;
+	color: #fff;
+  
+}
+
+.navbar-left {
+	color : #FED136;
+	font-family: 'Satisfy', cursive;
+}
+
+#sumo h1{
+	color: #fff;
+}
+
+#toomeet {
+   font-weight: bold;
+	color: #fff;
+
+}
