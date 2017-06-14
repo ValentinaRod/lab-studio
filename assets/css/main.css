@@ -212,7 +212,104 @@ font: font-family: 'Satisfy', cursive;*/
 	margin-left: -71px;
 }
 
+/*img 3 con texto */
 
+.año3 {
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.aboutsubtext3{
+	text-align: right;
+	font-weight: bold;
+}
+
+.aboutext3 {
+	text-align: right;
+ 	color: #585858;
+	font-family: cursive;
+}
+
+.imgabout3 {
+	border-radius: 50%;
+	border: 5px solid #E6E6E6;
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+}
+
+/*Imagen 4 con texto*/
+.imgabout4{
+	margin-top: 50px;
+	border-radius: 50%;
+	border: 5px solid #E6E6E6;
+	width: 150px;
+	height: 150px;
+
+}
+
+.año4 {
+	text-align: left;
+	font-weight: bold;
+	margin-left: -70px;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.aboutsubtext4{
+	text-align: left;
+	font-weight: bold;
+	margin-left: -70px;
+}
+
+
+.aboutext4{
+	text-align: left;
+	color: #585858;
+	font-family: cursive;
+	margin-left: -71px;
+}
+
+/*circulo amarillo ultima*/
+
+.circulo {
+	margin-top: 50px;
+	border-radius: 50%;
+	border: 5px solid #E6E6E6;
+	width: 150px;
+	height: 150px;
+	background-color: #FED136;
+
+}
+
+.circulo p{
+	margin-left: 24px;
+	margin-top: 52px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+/*---------------------------SECCION TEAM*/
+.section-five {
+	height: 1000px;
+	background-color: #EEEEEE;
+	margin-top: 340px;
+}
+
+.team-title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 500px;
+	margin-top: 150px;
+}
+
+.team-subtitle{
+	font-size: 16px;
+	font-family: cursive;
+	margin-left: 524px;
+}
 
 
 
