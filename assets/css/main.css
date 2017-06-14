@@ -1,6 +1,6 @@
 /*---colors
 amarillo: FED136
-gris: FBFCFC;
+gris: #585858;
 font: font-family: 'Satisfy', cursive;*/
 /*-----------------------------NAV*/
 .first-section {
@@ -98,4 +98,48 @@ font: font-family: 'Satisfy', cursive;*/
 	font-family: 'Times New Roman';
 }
 
-/*SECCION 
+/*---------------------------SECCION PORTAFOLIO*/
+.section-three{
+	height: 1000px;
+	background-color: #EEEEEE;
+}
+.gallery_product{
+    
+    margin-bottom: 30px;
+}
+
+.portafolio-title{
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 3px;
+	margin-left: 500px;
+}
+
+.portafolio-subtitle {
+	font-family: 'Times New Roman', cursive;
+	font-size: 20px;
+	color: #585858;
+	margin-left: 482px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+
+.textportafolio{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.portafoliosubtext {
+	font-family: 'Times New Roman', cursive;
+	color: #585858;
+	text-align: center;
+	font-size: 16px;
+}
+
+.img-responsive {
+	border-bottom: 30px;
+	border-color: white;
+}
