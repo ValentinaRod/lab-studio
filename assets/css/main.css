@@ -5,7 +5,7 @@ amarillo: FED136;
 .first-section {
 	background: url(../img/header-bg.jpg);
 	background-repeat: no-repeat;
-	height: 100vh; /*esto utilizara el 100% del alto de la pantalla*/
+	height: 820px; /*esto utilizara el 100% del alto de la pantalla*/
 	background-size: cover;
 }
 
@@ -14,8 +14,14 @@ amarillo: FED136;
 	border: none;
 }
 
-.toggle-label {
+.navbar-inverse .navbar-toggle{
 	background-color: #FED136;
+	color: white;
+	font-weight: bold;
+}
+
+.toggle-label {
+	color: white;
 }
 
 .sr-only {
@@ -25,20 +31,35 @@ amarillo: FED136;
 .navbar-collapse {
 	font-weight: bold;
 	color: #fff;
+	padding: 5px;
   
 }
 
 .navbar-left {
 	color : #FED136;
+	font-size: 30px;
+	font-family: 'Satisfy', cursive;
+	margin-top: 13px;
+}
+
+#studio {
+	color: #fff;
+	margin-top: 280px;
 	font-family: 'Satisfy', cursive;
 }
 
-#sumo h1{
+#toomeet {
+   	font-weight: bold;
 	color: #fff;
+	font-size: 70px;
 }
 
-#toomeet {
-   font-weight: bold;
+.btn-default{
+	background-color: #FED136;
 	color: #fff;
-
+	margin-left: 500px;
+	border: none;
+	font-weight: bold;
+	width: 200px;
+	height: 70px;
 }
