@@ -140,6 +140,85 @@ font: font-family: 'Satisfy', cursive;*/
 }
 
 .img-responsive {
-	border-bottom: 30px;
+	border-top: 30px;
 	border-color: white;
 }
+
+/*---------------SECTION ABOUT*/
+
+.section-four {
+	height: 1000px;
+
+}
+
+.about-title{
+	margin-top: 225px;
+	margin-left: 591px;
+	font-weight: bold;
+
+}
+
+.año {
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+.aboutsubtext{
+	text-align: right;
+	font-weight: bold;
+}
+
+.aboutext {
+	text-align: right;
+ 	color: #585858;
+	font-family: cursive;
+}
+
+.imgabout1 {
+	border-radius: 50%;
+	border: 5px solid #E6E6E6;
+	width: 150px;
+	height: 150px;
+}
+/*img 2 con texto */
+
+.imgabout2{
+	margin-top: 50px;
+	border-radius: 50%;
+	border: 5px solid #E6E6E6;
+	width: 150px;
+	height: 150px;
+
+}
+
+.año2 {
+	text-align: left;
+	font-weight: bold;
+	margin-left: -70px;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.aboutsubtext2{
+	text-align: left;
+	font-weight: bold;
+	margin-left: -70px;
+}
+
+
+.aboutext2{
+	text-align: left;
+	color: #585858;
+	font-family: cursive;
+	margin-left: -71px;
+}
+
+
+
+
+
+
+
+
+
+
+
