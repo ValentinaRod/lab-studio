@@ -1,5 +1,6 @@
 /*---colors
-amarillo: FED136;
+amarillo: FED136
+gris: FBFCFC;
 font: font-family: 'Satisfy', cursive;*/
 /*-----------------------------NAV*/
 .first-section {
@@ -65,13 +66,36 @@ font: font-family: 'Satisfy', cursive;*/
 }
 /*----------------------------------SERVICES*/
 
+.section-two {
+	height: 1000px;
+}
+
 .text {   /*titulo Services*/
  	color: black;
  	font-size: 40px;
  	font-weight: bold;
+ 	margin-top: 360px;
 }
 .Subtext{ /*Subittulo services*/
-	font-size: 16px;
-	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+	font-family: 'Times New Roman', cursive;
+}
+.fa-stack { /*circulo iconos*/
+	color: #FED136;
+	margin-left: 115px;
 }
 
+.subtituloservices {
+	font-size: 20px;
+	margin-left: 100px;
+	font-weight: bold;
+
+}
+.parrafoS{
+	font-size: 20px;
+	color: #585858;
+	text-align: justify; /*pone centrada el texto*/
+	font-family: 'Times New Roman';
+}
+
+/*SECCION 
