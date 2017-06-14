@@ -1,7 +1,7 @@
 /*---colors
 amarillo: FED136;
-*/
-
+font: font-family: 'Satisfy', cursive;*/
+/*-----------------------------NAV*/
 .first-section {
 	background: url(../img/header-bg.jpg);
 	background-repeat: no-repeat;
@@ -63,3 +63,15 @@ amarillo: FED136;
 	width: 200px;
 	height: 70px;
 }
+/*----------------------------------SERVICES*/
+
+.text {   /*titulo Services*/
+ 	color: black;
+ 	font-size: 40px;
+ 	font-weight: bold;
+}
+.Subtext{ /*Subittulo services*/
+	font-size: 16px;
+	font-family: 'Satisfy', cursive;
+}
+
