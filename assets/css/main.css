@@ -295,7 +295,7 @@ font: font-family: 'Satisfy', cursive;*/
 .section-five {
 	height: 1000px;
 	background-color: #EEEEEE;
-	margin-top: 340px;
+	margin-top: 450px;
 }
 
 .team-title {
@@ -312,8 +312,19 @@ font: font-family: 'Satisfy', cursive;*/
 }
 
 
-
-
+/*--REDES SOCIALES*/
+.social{
+    text-align:center;
+    width:120px;
+    height:120px;
+    float:left;
+    background:rgb(255,255,255);
+    border:1px solid rgb(204,204,204);
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:100px;
+    margin:0 10px 10px 0;
+    padding:19px;
+}
 
 
 
