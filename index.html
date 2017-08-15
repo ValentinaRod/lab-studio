@@ -1,366 +1,327 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Lab-Studio</title>
-	<script src="https://use.fontawesome.com/b8c7bc1272.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="assets/css/main.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab Studio</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat:400,700,800" rel="stylesheet">
+    <script src="https://use.fontawesome.com/046c2163eb.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<!-------------------------SECCION NAVBAR -->
-<section class= "first-section">
-<nav class="navbar navbar-inverse">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sw-example-navbar-collapse-3" data-label-expanded="Close" aria-expanded="false">
-    <span class="navbar-toggle-label">Menu</span>
-    <span class="sr-only">(toggle)</span>
+	<nav id="navegadorId" class="navbar navbar-default navbar-fixed-top" role="navigation"">
+		<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target=".navbar-ex1-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Start Bootstrap</a>
+		    </div>
 
-    <span class="navbar-toggle-icon">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </span>
-  </button>
-	
-<!--Aqui termina boton hamburguesa-->
-<div class= "container">
-	<div class="collapse navbar-collapse" id="sw-example-navbar-collapse-3">
-	<div class="navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="me" href="#">SERVICES</a></li>
-                        <li><a class="me" href="#">PORTAFOLIO</a></li>
-                        <li><a class="me" href="#">ABOUT</a></li>
-                        <li><a class="me" href="#">TEAM</a></li>
-                        <li><a class="me" href="#">CONTACT</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-left">
-                        <li>Star Bootstrap</li>
-                    </ul>
-   </div>
-   </div>
-</div>
-
-</nav> <!--Aqui termina mi nav-->
-<div class= "container" >
-			<div class= "row">
-				<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<h1 id="studio">Welcome To Our Studio!</h1>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
+		      
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">SERVICES</a></li>
+		        <li><a href="#">PORTAFOLIO</a></li>
+		        <li><a href="#">ABOUT</a></li>
+		        <li><a href="#">TEAM</a></li>
+		        <li><a href="#">CONTACT</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<section class="header container-fluid">
+		<div class="texto">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h2>Welcome To Our Studio!</h2>
 				</div>
 			</div>
-				<div class= "row">
-					<div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-						<h3 id= "toomeet">IT'S NICE TOO MEET YOU</h3>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1>IT'S NICE TO MEET YOU</h1>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<button>TELL ME MORE</button>
+				</div>
+			</div>	
+		</div>	
+	</section>
+	<section class="services container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1>SERVICES</h1>
+				<p class="cursi">Lorem ipsum dolor sit amet</p>
+			</div>
+		</div>	
+		<div id="services-row" class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="circle">
+					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+				</div>
+				<h4>E-Commerce</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci in repellat labore laboriosam nam! ipsum dolor sit amet, consectetur adipisicing elit. </p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="circle">
+					<i class="fa fa-laptop" aria-hidden="true"></i>
+				</div>
+				<h4>Responsive Design</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci in repellat labore laboriosam nam! ipsum dolor sit amet, consectetur adipisicing elit. </p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="circle">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+				</div>
+				<h4>Web Security</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci in repellat labore laboriosam nam! ipsum dolor sit amet, consectetur adipisicing elit. </p>
+			</div>
+		</div>	
+	</section>
+	<section class="portafolio container-fluid">
+		<div class="container">
+			<div class="row">
+				<h1>PORTAFOLIO</h1>
+				<p class="cursi">Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="row porta-group">
+				<div class="porta-group porta-img col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="margen">
+					<img src="assets/img/roundicons.png" alt="roundIcons" class="img-responsive">
+					<h4>Round Icons</h4>
+					<p class="cursi">Graphic Design</p>
+				</div>
+				</div>
+				<div class="porta-img col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<div class="margen">
+					<img src="assets/img/startup-framework.png" alt="startup-framework" class="img-responsive">
+					<h4>Startap Framework</h4>
+					<p class="cursi">Website Design</p>
+				</div>
+				</div>
+				<div class="porta-img col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<div class="margen">
+					<img src="assets/img/treehouse.png" alt="treehouse" class="img-responsive">
+					<h4>Tree House</h4>
+					<p class="cursi">Website Design</p>
+				</div>
+				</div>
+				<div class="porta-img col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<div class="margen">
+					<img src="assets/img/golden.png" alt="golden" class="img-responsive">
+					<h4>Golden</h4>
+					<p class="cursi">Website Design</p>
 					</div>
 				</div>
-<!--Boton TELL ME MORE-->
-				<button type="button" class="btn btn-default">TELL ME MORE</button>
-				
-
-
-</div> <!-- aca termina la bienvenida del sitio -->
-</section>
-<!--SECTION 2 SERVICES-->
-<section class= "section-two">
-	<div class= "container">
-		<div class= "row">
-				<div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<p class= "text">SERVICES</p>
-					<p class="Subtext">Lorem ipsum dolor sit amet, consectetur</p>
+				<div class="porta-img col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="margen">
+					<img src="assets/img/escape.png" alt="roundIcons" class="img-responsive">
+					<h4>Escape</h4>
+					<p class="cursi">Website Design</p>
+					</div>
 				</div>
+				<div class="porta-img col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="margen">
+					<img src="assets/img/dreams.png" alt="roundIcons" class="img-responsive">
+					<h4>Tree House</h4>
+					<p class="cursi">Dreams</p>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-<div class ="container">
-	<div class= "row">
-		<div class= "cont">
-			<div class = " col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<!--circulo iconos-->
-						
-						<span class="fa-stack fa-4x">
-  						<i class="fa fa-circle  fa-stack-2x yellow"></i>
-  						<i class="fa fa-shopping-cart fa-stack-1x fa-inverse" ></i>
-						</span>
-							<h2 class="subtituloservices">E-Commerce</h2>
-							<p class= "parrafoS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget.</p>
-			</div>	 <!--Mi div termina aqui asi queda uno al lado del otro-->
-				<div class = " col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<!--circulo icono-->
-						<span class="fa-stack fa-4x">
-  							<i class="fa fa-circle  fa-stack-2x yellow"></i>
-  							<i class="fa fa-laptop fa-stack-1x fa-inverse" ></i>
-						</span>
-						<h2 class="subtituloservices">Responsive Design</h2>
-						<p class= "parrafoS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget. </p>
+	</section>
+	<section class="about container">
+		<div class="row text-about">
+			<h1>ABOUT</h1>
+			<p class="cursi">Lorem ipsum dolor sit amet.</p>
+		</div>
+		<div class="row izq">
+			<div class="text1 col-xs-10 col-sm-10 col-md-5 col-lg-5">
+				<h3>2019-2011</h3>
+				<h3>Our Humble Beginnins</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ea alias, earum incidunt facere dolorum aspernatur qui nobis necessitatibus aperiam.</p>
+			</div>
+			<div class="circulo col-img col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<div class="circle-1">
 					
-					</div>		
-						<div class = " col-lg-4 col-md-4 col-sm-4 col-xs-4">
-									
-								<!--circulo-->
-								<span class="fa-stack fa-4x">
-  									<i class="fa fa-circle  fa-stack-2x yellow"></i>
-  									<i class="fa fa-lock fa-stack-1x fa-inverse" ></i>
-									</span>
-									<h2 class="subtituloservices">Web Security</h2>
-									<p class= "parrafoS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget.</p>
-					</div>
+				</div>
+			</div>
+			<div class="col-md-5 col-lg-5">
+				
+			</div>
 		</div>
-	</div>
-</div>
-</section>
-<!--SECTION PORTAFOLIO-->
-<section class= "section-three">
- <div class="container">
- 	<div class="row">
-        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="portafolio-title">PORTFOLIO</h1>
-            <p class= "portafolio-subtitle">Lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-			<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="assets/img/roundicons.png" class="img-responsive">
-            	<p class="textportafolio">Round Icons</p>
-            	<p class="portafoliosubtext">Graphic Design</p>
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="assets/img/startup-framework.png" class="img-responsive">
-                <p class="textportafolio">Startup-framework</p>
-            	<p class="portafoliosubtext">Website Design</p>
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="assets/img/treehouse.png" class="img-responsive">
-                <p class="textportafolio">TreeHouse</p>
-            	<p class="portafoliosubtext">Website Design</p>
-            </div>
-
-             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="assets/img/golden.png" class="img-responsive">
-                <p class="textportafolio">Golden</p>
-            	<p class="portafoliosubtext">Website Design</p>
-            </div>
-
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="assets/img/escape.png" class="img-responsive">
-                <p class="textportafolio">Escape</p>
-            	<p class="portafoliosubtext">Website Design</p>
-            </div>
-
-			 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="assets/img/dreams.png" class="img-responsive">
-                <p class="textportafolio">Dreams</p>
-            	<p class="portafoliosubtext">Website Design</p>
-            </div>
-            <!--thumbnails-->
-   </div>
-</div>
-</section>
-<!----------------SECTION ABOUT-->
-<section class="section-four">
-<div class="container">
-  <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="about-title">ABOUT</h1>
-            <p class= "portafolio-subtitle">Lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-          <div class= "container">
-            <div class= "row text-justify">
-              <div class="col-lg-3 col-md-3  col-md-offset-3 col-sm-12 col-xs-12" id= "abouttext">
-                            <p class= "año">2009-2011</p>
-                                <p class= "aboutsubtext">Our Humble Beginnings</p>
-                                  <p class= "aboutext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget.</p>
-                        </div> 
-                        <div class= "col-lg-4 col-md-4 col-md-offset-0 col-sm-12 col-xs-12">
-
-                            <img src="assets/img/1.jpg" class="img-responsive imgabout1">
-                        </div>             
-                      
-              </div>
-          </div>
-  </div>
-</div>
-<div class= "container">
-<div class="row">
-
-<div class= "col-lg-3 col-md-3 col-md-offset-6  col-sm-12 col-xs-12">
-      <img src="assets/img/2.jpg" class="img-responsive imgabout2">
-</div>   
-                           
-    
-        <div class= "row text-justify">
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" id="abouttext2">
-                  <p class= "año2">March-2011</p>
-                      <p class= "aboutsubtext2">An Agency is born</p>
-                            <p class= "aboutext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget.</p>
-            </div>
-                              
-                      
-        </div>
-
-</div>
-</div>        
- <div class= "container">
-            <div class= "row text-justify">
-              <div class="col-lg-3 col-md-3  col-md-offset-3 col-sm-12 col-xs-12" id= "abouttext3">
-                            <p class= "año3">DECEMBER 2012</p>
-                                <p class= "aboutsubtext3">Transition to full Service</p>
-                                  <p class= "aboutext3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget.</p>
-                        </div> 
-                        <div class= "col-lg-4 col-md-4 col-md-offset-0 col-sm-12 col-xs-12">
-
-                            <img src="assets/img/3.jpg" class="img-responsive imgabout3">
-                        </div>             
-                      
-              </div>
-          </div>
-  </div>
-</div>   
-
-<div class= "container">
-<div class="row">
-
-      <div class= "col-lg-3 col-md-3 col-md-offset-6  col-sm-12 col-xs-12">
-      <img src="assets/img/2.jpg" class="img-responsive imgabout4">
-      </div>   
-                           
-    
-        <div class= "row text-justify">
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" id="abouttext4">
-                  <p class= "año4">july 2014</p>
-                      <p class= "aboutsubtext4">Phase Two Expansion</p>
-                            <p class= "aboutext4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis elit, sagittis ut metus eu, dignissim rutrum mi. In porttitor orci erat, ac condimentum libero ultrices eget.</p>
-            </div>
-                              
-                      
-        </div>
-
-</div>
-</div>        
-<div class= "container">
-  <div class="row">
-
-      <div class= "col-lg-3 col-md-3 col-md-offset-6  col-sm-12 col-xs-12">
-        <div class= "circulo">
-        <p class= "ultimotext">BE PART OF OUR STORY!</p>
-          
-        </div>  
-
-      </div>
-  </div>
-</div>
-</section>
-<!--------------------------------SECTION TEAM-->
-<section class= "section-five">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="team-title">OUR AMAZING TEAM</h1>
-            <p class= "team-subtitle">Lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-            <div class= "row">
-                <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-           
-            <img src="assets/img/1 (1).jpg" class= "img-responsive imgteam1">
-            <p class= "nommbre1">Kay Garland</p>
-            <p class= "cargo1">Lead Designer</p>
-            </div>
-
-            <!--REDES SOCIALES-->
-
-        <div class="social facebook">
-            <i class="fa fa-facebook fa-5x"></i>       
-        </div>
-        <div class="social twitter">
-            <i class="fa fa-twitter fa-5x"></i>   
-        </div>
-     
-          <div class="row">
-        <div class="social linkedin">
-            <i class="fa fa-linkedin fa-5x"></i>   
-          </div>
-       
-       
-            
- </div>
-  </div>
-        
-                <div class= "row">
-                    <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-             
-                    <img src="assets/img/2 (1).jpg" class= "img-responsive imgteam2">
-                        <p class= "nommbre2">Larry Parker</p>
-                        <p class= "cargo2">Lead Marketer</p>
-
-                          <!--REDES SOCIALES-->
-                        <div class="social facebook">
-            <i class="fa fa-facebook fa-5x"></i>       
-        </div>
-        <div class="social twitter">
-            <i class="fa fa-twitter fa-5x"></i>   
-        </div>
-     
-          <div class="row">
-        <div class="social linkedin">
-            <i class="fa fa-linkedin fa-5x"></i>   
-          </div>
-       
-                    </div>
-                    <div class= "row">
-                <div class = "col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-                        
-                  <img src="assets/img/3 (1).jpg" class= "img-responsive imgteam3">
-                  <p class= "nommbre3">Diana Pertersen </p>
-                    <p class= "cargo3">Lead Developer</p>
-                    
-
-            <!--REDES SOCIALES-->
-                <div class="social facebook">
-            <i class="fa fa-facebook fa-5x"></i>       
-        </div>
-        <div class="social twitter">
-            <i class="fa fa-twitter fa-5x"></i>   
-        </div>
-     
-          <div class="row">
-        <div class="social linkedin">
-            <i class="fa fa-linkedin fa-5x"></i>   
-          </div>
-       
-                      </div>
-                  </div>
-                  
-                  </div>            
-
-
-
-                </div>
-              
-          </div> 
-  </div>
-</div>
-  
-
-  
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<div class="row der">
+			<div class="col-md-5 col-lg-5">
+				
+			</div>
+			<div class="col-img col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<div class="circle-2">
+					
+				</div>
+			</div>
+			<div class="text2 col-xs-10 col-sm-10 col-md-5 col-lg-5">
+				<h3>MARCH 2011</h3>
+				<h3>An Agency is Born</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ea alias, earum incidunt facere dolorum aspernatur qui nobis necessitatibus aperiam.</p>
+			</div>
+		</div>
+		<div class="row izq">
+			<div class="text1 col-xs-10 col-sm-10 col-md-5 col-lg-5">
+				<h3>DECEMBER 2012</h3>
+				<h3>Transition to Full Service</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ea alias, earum incidunt facere dolorum aspernatur qui nobis necessitatibus aperiam.</p>
+			</div>
+			<div class="circulo col-img col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<div class="circle-3">
+					
+				</div>
+			</div>
+			<div class="col-md-5 col-lg-5">
+				
+			</div>
+		</div>
+		<div class="row der">
+			<div class="col-md-5 col-lg-5">
+				
+			</div>
+			<div class="col-img col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<div class="circle-4">
+					
+				</div>
+			</div>
+			<div class="text2 col-xs-10 col-sm-10 col-md-5 col-lg-5">
+				<h3>JULY 2014</h3>
+				<h3>Phase Two Expansion</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ea alias, earum incidunt facere dolorum aspernatur qui nobis necessitatibus aperiam.</p>
+			</div>
+		</div>
+		<div class="row circle-yellow">
+			<div class="col-md-5 col-lg-5">
+				
+			</div>
+			<div class="col-img col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<div class="circle-5">
+					<h4>BE PART OF OUR STORY!</h4>
+				</div>
+			</div>
+			<div class="col-md-5 col-lg-5">
+				
+			</div>
+		</div>
+	</section>
+	<section class="team container-fluid">
+		<div class="container">
+			<div class="row team-text">
+				<h1>OUR AMAZING TEAM</h1>
+				<p class="cursi">Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="team-img1">
+						
+					</div>
+					<h5>Kay Garland</h5>
+					<p>Lead Designer</p>
+					<div class="iconos">
+						<div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+						<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+						<div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="team-img2">
+						
+					</div>
+					<h5>Larry Parker</h5>
+					<p>Lead Marketer</p>
+					<div class="iconos">
+						<div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+						<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+						<div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="team-img3">
+						
+					</div>
+					<h5>Diana Petersen</h5>
+					<p>Lead Developer</p>
+					<div class="iconos">
+						<div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+						<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+						<div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+					</div>
+				</div>
+			</div>
+			<div class="row p-team">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam modi nulla officiis reiciendis illo, facere nam qui esse eius amet deserunt pariatur eaque aliquid, laudantium cum voluptas voluptatem, consequuntur sapiente.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="brands container">
+		<div class="row brand-row">
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<img src="assets/img/envato.jpg" alt="envato" class="img-responsive">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<img src="assets/img/designmodo.jpg" alt="designmodo" class="img-responsive">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<img src="assets/img/themeforest.jpg" alt="themeforest" class="img-responsive">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<img src="assets/img/creative-market.jpg" alt="creative-market" class="img-responsive">
+			</div>
+		</div>
+	</section>
+	<section class="contact container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1>CONTACT US</h1>
+				<p class="cursi">Lorem ipsum dolor sit amet</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="contact-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<input type="text" id="nameId" class="contactInput" placeholder="YOUR NAME*">
+				<input type="text" id="emailId" class="contactInput" placeholder="YOUR EMAIL*">
+				<input type="text" id="phoneId" class="contactInput" placeholder="YOUR PHONE*">
+			</div>
+			<div class="contact-right col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<textarea name="mensaje" id="messageId" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+			</div>
+		</div>
+		<div class="row button-contact">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<button id="contact-button">SEND MESSAGE</button>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<p>Copyright &copy; Your Website 2016</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="iconos">
+					<div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+					<div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+					<div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
